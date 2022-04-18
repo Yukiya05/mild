@@ -40,7 +40,7 @@ $(document).ready(() => {
     //ここまで
 
     //曜日判断と座席番号自動入力ここから(3年前期仕様)
-    if (week == 1 && (jigen == encodeURI("2時限"))) {
+    if (week == 1 && (jigen == encodeURI("1時限"))) {
         //電子工学Ⅰ（西田）
         seatNumber = encodeURI("");
         roomNumber = encodeURI(1111);
