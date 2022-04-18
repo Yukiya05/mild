@@ -39,9 +39,10 @@ $(document).ready(() => {
     }
     //ここまで
 
-    //曜日判断と座席番号自動入力ここから
+    //曜日判断と座席番号自動入力ここから(3年前期仕様)
     if (week == 2 && (jigen == encodeURI("2時限"))) {
         //電子工学Ⅰ（西田）
+        seatNumber = encodeURI("");
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("2時限"))) {
         //制御工学Ⅰ（松岡）
@@ -49,13 +50,16 @@ $(document).ready(() => {
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("3時限"))) {
         //数値解析（孟）
+        seatNumber = encodeURI("");
         roomNumber = encodeURI("電気マルチメディア室");
     } else if (week == 2 && (jigen == encodeURI("4時限"))) {
         //実験前半（ネバ）
-
+        seatNumber = encodeURI("");
+        roomNumber = encodeURI("");
     } else if (week == 2 && (jigen == encodeURI("5時限"))) {
         //実験後半（ネバ）
-
+        seatNumber = encodeURI("");
+        roomNumber = encodeURI("");
     } else if (week == 3 && (jigen == encodeURI("1時限"))) {
         //発変電工学Ⅰ（篠原）
         seatNumber = encodeURI(7);
@@ -74,6 +78,7 @@ $(document).ready(() => {
         roomNumber = encodeURI(1111);
     } else if (week == 5 && (jigen == encodeURI("2時限"))) {
         //インタミ（早瀬）
+        seatNumber = encodeURI("");
         roomNumber = encodeURI("A" + 609);
     } else {
         //授業時間外
