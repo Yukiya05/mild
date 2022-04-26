@@ -55,11 +55,11 @@ $(document).ready(() => {
     } else if (week == 2 && (jigen == encodeURI("4時限"))) {
         //実験前半（ネバ）
         seatNumber = encodeURI("");
-        roomNumber = encodeURI("");
+        roomNumber = encodeURI(4208);
     } else if (week == 2 && (jigen == encodeURI("5時限"))) {
         //実験後半（ネバ）
         seatNumber = encodeURI("");
-        roomNumber = encodeURI("");
+        roomNumber = encodeURI(4208);
     } else if (week == 3 && (jigen == encodeURI("1時限"))) {
         //発変電工学Ⅰ（篠原）
         seatNumber = encodeURI(7);
