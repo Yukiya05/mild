@@ -62,7 +62,7 @@ $(document).ready(() => {
         roomNumber = encodeURI(4208);
     } else if (week == 3 && (jigen == encodeURI("1時限"))) {
         //発変電工学Ⅰ（篠原）
-        seatNumber = encodeURI(7);
+        seatNumber = encodeURI(53);
         roomNumber = encodeURI(1111);
     } else if (week == 3 && (jigen == encodeURI("3時限"))) {
         //電力伝送工学Ⅰ（住吉谷）
