@@ -39,47 +39,51 @@ $(document).ready(() => {
     }
     //ここまで
 
-    //曜日判断と座席番号自動入力ここから(3年前期仕様)
+    //曜日判断と座席番号自動入力ここから(3年後期仕様)
     if (week == 1 && (jigen == encodeURI("1時限"))) {
-        //電子工学Ⅰ（西田）
+        //電子工学Ⅱ（西田）
+        seatNumber = encodeURI("");
+        roomNumber = encodeURI(1111);
+    } else if (week == 1 && (jigen == encodeURI("2時限"))) {
+        //電力伝送工学Ⅱ（住吉谷）
         seatNumber = encodeURI("");
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("2時限"))) {
-        //制御工学Ⅰ（松岡）
-        seatNumber = encodeURI(72);
+        //電気法規（西）
+        seatNumber = encodeURI("");
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("3時限"))) {
-        //数値解析（孟）
+        //電気材料Ⅱ（花井）
         seatNumber = encodeURI("");
-        roomNumber = encodeURI("電気マルチメディア室");
-    } else if (week == 2 && (jigen == encodeURI("4時限"))) {
-        //実験前半（ネバ）
-        seatNumber = encodeURI("");
-        roomNumber = encodeURI(4208);
-    } else if (week == 2 && (jigen == encodeURI("5時限"))) {
-        //実験後半（ネバ）
-        seatNumber = encodeURI("");
-        roomNumber = encodeURI(4208);
-    } else if (week == 3 && (jigen == encodeURI("1時限"))) {
-        //発変電工学Ⅰ（篠原）
-        seatNumber = encodeURI(53);
         roomNumber = encodeURI(1111);
-    } else if (week == 3 && (jigen == encodeURI("3時限"))) {
-        //電力伝送工学Ⅰ（住吉谷）
-        seatNumber = encodeURI(115);
+    } else if (week == 3 && (jigen == encodeURI("1時限"))) {
+        //ディジタル制御（松岡）
+        seatNumber = encodeURI(57);
         roomNumber = encodeURI(1111);
     } else if (week == 4 && (jigen == encodeURI("1時限"))) {
-        //電気材料Ⅰ（花井）
-        seatNumber = encodeURI(67);
+        //発変電工学Ⅱ（篠原）
+        seatNumber = encodeURI("");
         roomNumber = encodeURI(1111);
     } else if (week == 4 && (jigen == encodeURI("2時限"))) {
-        //パワエレ（ネバ）
-        seatNumber = encodeURI(71);
+        //制御工学Ⅱ（松岡）
+        seatNumber = encodeURI(68);
+        roomNumber = encodeURI(1111);
+    } else if (week == 5 && (jigen == encodeURI("1時限"))) {
+        //パワエレⅡ（ネバ）
+        seatNumber = encodeURI(118);
         roomNumber = encodeURI(1111);
     } else if (week == 5 && (jigen == encodeURI("2時限"))) {
-        //インタミ（早瀬）
+        //インタミ（坂田）
         seatNumber = encodeURI("");
-        roomNumber = encodeURI("A" + 609);
+        roomNumber = encodeURI("文系センター棟" + 3 + "階PC教室D");
+    } else if (week == 5 && (jigen == encodeURI("3時限"))) {
+        //実験
+        seatNumber = encodeURI("");
+        roomNumber = encodeURI("");
+    } else if (week == 5 && (jigen == encodeURI("4時限"))){
+        //実験
+        seatNumber = encodeURI("");
+        roomNumber = encodeURI("");
     } else {
         //授業時間外
         seatNumber = encodeURI("");
