@@ -50,11 +50,11 @@ $(document).ready(() => {
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("2時限"))) {
         //電気法規（西）
-        seatNumber = encodeURI("");
+        seatNumber = encodeURI(60);
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("3時限"))) {
         //電気材料Ⅱ（花井）
-        seatNumber = encodeURI("");
+        seatNumber = encodeURI(54);
         roomNumber = encodeURI(1111);
     } else if (week == 3 && (jigen == encodeURI("1時限"))) {
         //ディジタル制御（松岡）
