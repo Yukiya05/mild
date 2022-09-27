@@ -46,7 +46,7 @@ $(document).ready(() => {
         roomNumber = encodeURI(1111);
     } else if (week == 1 && (jigen == encodeURI("2時限"))) {
         //電力伝送工学Ⅱ（住吉谷）
-        seatNumber = encodeURI("");
+        seatNumber = encodeURI(123);
         roomNumber = encodeURI(1111);
     } else if (week == 2 && (jigen == encodeURI("2時限"))) {
         //電気法規（西）
